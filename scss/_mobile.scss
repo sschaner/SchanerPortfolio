@@ -62,6 +62,16 @@
     grid-template-columns: 1fr;
   }
 
+  .about-knowledge {
+    &__container {
+      display: block;
+
+      .certificates {
+        margin: 1em 0 0 0;
+      }
+    }
+  }
+
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -75,5 +85,16 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
+      padding: 1.5rem 2rem;
+    }
+
+    .text-secondary {
+      display: block;
+    }
   }
 }
